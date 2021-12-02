@@ -1,10 +1,25 @@
+#=====================================================#
+
+#>>>>>>>>>>>>>>>>>>>> [{COS-ZRAM-MOD}] <<<<<<<<<<<<<<<<<<<<#
+
+#=====================================================#
+
+
 ## INFO
-For Zram Only.
+This module for add zram.
+
+## HOW TO INSTALL
+1. Instal busy box.
+2. After installing module busybox. You can install the COS-ZRAM-MOD module.
+4. Reboot.
+3. Done...
 
 ## SUPPORT
-Youtube Channel : https://www.youtube.com/channel/UCF8kyPa9m43vqwKsgX1PdTQ
+---Discord-----------: https://top.gg/servers/840492676657840129
 
-Discord         : https://top.gg/servers/840492676657840129
+---Instagram--------: ---
 
-Instagram       : ---
+---Github------------: https://github.com/Moezuk
+
+---Youtube Channel : https://www.youtube.com/channel/UCF8kyPa9m43vqwKsgX1PdTQ
 
