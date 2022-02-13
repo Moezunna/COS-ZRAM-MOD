@@ -28,7 +28,7 @@ In this code we can see that sometimes it can change the system, but sometimes i
 
 ---Instagram--------: https://www.instagram.com/moe_zuk/
 
----Telegram---------: ---
+---Telegram---------: https://t.me/MoeZuk
 
 ---Youtube Channel : https://www.youtube.com/channel/UCF8kyPa9m43vqwKsgX1PdTQ
 
