@@ -5,7 +5,16 @@
 #=====================================================#
 
 ## INFO
-This module for add zram.
+This module for add zram. Update by moezu...
+
+Smile don't be gloomy and keep the spirit :D.
+
+Code apply
+Module test with this code...
+```
+echo 2048M > /sys/block/zram0/disksize
+```
+In this code we can see that sometimes it can change the system, but sometimes it doesn't
 
 ## HOW TO INSTALL
 ```
