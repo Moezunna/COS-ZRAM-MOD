@@ -1,11 +1,12 @@
+#=============================#
+# < NICKMOD = COS-EXP-MOD     #
+# < VERSION = In the filename #
+# < DATE = 13-02-2022         #
+#=============================#
+
 #COSTUM BY MOEZU
 
 # Zram Old To New
-sleep 10
-echo 4096M >/sys/block/zram0/disksize
-mkswap /dev/block/zram0
-swapon /dev/block/zram0
-
 echo 4194304K > /sys/block/zram0/disksize
 echo 4096M > /sys/block/zram0/disksize
 echo 4G > /sys/block/zram0/disksize
@@ -13,34 +14,6 @@ mkswap /dev/zram0
 swapon /dev/zram0
 mkfs.ext4 /dev/zram1
 mount /dev/zram1 /tmp
-
-
-{ # Zram New Test Add Work Or Not 
-    	echo 3 > /sys/block/zram0/max_comp_streams
-	if [ $? -ne 0 ];
-		handle_error
-	fi
-}
-
-modprobe zram num_devices=0
-{
-echo cat /sys/block/zram0/max_comp_streams
-    #show supported compression algorithms
-echo cat /sys/block/zram0/comp_algorithm
-lzo [lz4]
-
-	#select lzo compression algorithm
-echo lzo > /sys/block/zram0/comp_algorithm
-}
-
-	# Initialize /dev/zram0 with 50MB disksize
-echo $((50*4096*4096)) > /sys/block/zram0/disksize
-
-	# Using mem suffixes
-echo 4194304K > /sys/block/zram0/disksize
-echo 4096M > /sys/block/zram0/disksize
-echo 4G > /sys/block/zram0/disksize
-}
 
 for vm in /proc/sys/vm/
 do

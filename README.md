@@ -17,7 +17,7 @@ This module for add zram.
 ## SUPPORT
 ---Discord-----------: https://top.gg/servers/840492676657840129
 
----Instagram--------: ---
+---Instagram--------: https://www.instagram.com/moe_zuk/
 
 ---Github------------: https://github.com/Moezuk
 
