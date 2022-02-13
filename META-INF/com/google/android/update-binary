@@ -42,14 +42,14 @@ print_modname() {
   ui_print "[$pounds                                        ]"
   ui_print "۩▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬۩"
   sleep 3
-echo "Don't install other zram modules so this module can run normally"
-sleep 1
-echo "After Install Check Your Zram"
-sleep 1
-echo "Installation Completed"
-echo " "
-sleep 3
-ui_print "Reboot For Perfect Completed!!"
+  ui_print "Don't install other zram modules so this module can run normally"
+  sleep 1
+  ui_print "After Install Check Your Zram"
+  sleep 1
+  ui_print "Installation Completed"
+  ui_print " "
+  sleep 3
+  ui_print "Reboot For Perfect Completed!!"
 }
 
 ##############
