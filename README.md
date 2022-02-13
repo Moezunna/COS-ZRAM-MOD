@@ -24,9 +24,11 @@ In this code we can see that sometimes it can change the system, but sometimes i
 ## SUPPORT
 ---Discord-----------: https://top.gg/servers/840492676657840129
 
+---Github------------: https://github.com/Moezuk
+
 ---Instagram--------: https://www.instagram.com/moe_zuk/
 
----Github------------: https://github.com/Moezuk
+---Telegram---------: ---
 
 ---Youtube Channel : https://www.youtube.com/channel/UCF8kyPa9m43vqwKsgX1PdTQ
 
