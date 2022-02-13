@@ -33,12 +33,20 @@ print_modname() {
   len=`echo -n $MODNAME | wc -c`
   len=$((len + 2))
   local pounds=`printf "%${len}s" | tr ' ' '*'`
+  ui_print "۩▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬۩"
   ui_print "$pounds"
-  ui_print " $MODNAME "
+  ui_print " Name File       =$MODID "
+  ui_print " Name Module     =$MODNAME v0.2"
+  ui_print " Magisk Ver      =$MAGISK_VER "
+  ui_print " Magisk Ver Code =$MAGISK_VER_CODE "
   ui_print "$pounds"
-  ui_print "*******************"
-  ui_print " Powered by Magisk "
-  ui_print "*******************"
+  ui_print "۩▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬۩"
+echo "After Install Check Your Zram"
+sleep 1
+echo "Installation Completed"
+echo " "
+sleep 3
+ui_print "Reboot For Perfect Completed!!"
 }
 
 ##############

@@ -1,3 +1,9 @@
+#=============================#
+# < NICKMOD = COS-EXP-MOD     #
+# < VERSION = In the filename #
+# < DATE = 13-02-2022         #
+#=============================#
+
 if [ -f $INFO ]; then
   while read LINE; do
     if [ "$(echo -n $LINE | tail -c 1)" == "~" ]; then

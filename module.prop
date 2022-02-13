@@ -1,9 +1,9 @@
-id=COS-ZRAM-MOD
-name=¤¤ COS-ZRAM-MOD ¤¤
-version=vTwO
+id=ZramMod
+name=¤¤ 🙆COS-ZRAM-MOD🙆 ¤¤
+version=v0.2
 versionCode=1
 author=MoeZu
 support=https://www.youtube.com/channel/UCF8kyPa9m43vqwKsgX1PdTQ
 description=Set Your Zram {Support All Devices (This Module Costum)}
-minMagisk=20000
-
+minMagisk=23000
+donate=...
