@@ -7,9 +7,9 @@
 #COSTUM BY MOEZU
 
 # Zram Old To New Suppot MIUI OS
-echo 4194304K > /sys/block/zram0/disksize
-echo 4096M > /sys/block/zram0/disksize
-echo 4G > /sys/block/zram0/disksize
+echo 524288K > /sys/block/zram0/disksize
+echo 512M > /sys/block/zram0/disksize
+#cho 0,5G > /sys/block/zram0/disksize
 mkswap /dev/zram0
 swapon /dev/zram0
 mkfs.ext4 /dev/zram1
