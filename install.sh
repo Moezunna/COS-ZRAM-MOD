@@ -1,7 +1,7 @@
 #=============================#
-# < NICKMOD = COS-EXP-MOD     #
+# < NICKMOD = COS-ZRAM-MOD    #
 # < VERSION = In the filename #
-# < DATE = 13-02-2022         #
+# < DATE = 14-02-2022         #
 #=============================#
 
 REPLACE_EXAMPLE="
