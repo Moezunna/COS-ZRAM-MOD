@@ -37,7 +37,7 @@ print_modname() {
   sleep 1
   ui_print "-Name File       =$MODID"
   sleep 1
-  ui_print "-Name Module     =$MODNAME v0.2"
+  ui_print "-Name Module     =$MODNAME vS-0.2"
   sleep 1
   ui_print "-Magisk Ver      =$MAGISK_VER"
   sleep 1
