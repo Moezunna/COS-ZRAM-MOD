@@ -35,5 +35,5 @@ In this code we can see that sometimes it can change the system, but sometimes i
 ## ALSO SUPPORT MY BROTHER
 ---Instagram--------: https://www.instagram.com/mipirein_/
 
----Tiktok----------: https://www.tiktok.com/@mipireinnn
+---Tiktok------------: https://www.tiktok.com/@mipireinnn
 
